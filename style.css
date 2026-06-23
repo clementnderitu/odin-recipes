@@ -11,6 +11,17 @@ ul
     list-style: none;
 }
 
+footer
+{
+    border-top: 2px solid lightgrey;
+    padding-top: 25px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .recipe-title
 {
     text-align: center;
@@ -22,5 +33,77 @@ ul
 }
 
 .recipe-list-item{
+    width: 300px;
     text-align: center;
+    border: 1px solid lightgray;
+    padding: 8px;
+    margin: 32px auto;
+    border-radius: 8px;
+    cursor: pointer;
+    
 }
+
+.recipe-list-item:hover
+{
+    background-color: azure;
+    transition: 0.3s ease-in-out;
+}
+
+.recipe-list-item:visited{
+    text-decoration: none;
+}
+
+.recipe-list-item:active{
+    transform: scale(0.97);
+}
+.home-button
+{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.recipe-image
+{
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    box-shadow: 0 0 16px black;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.recipe-description-header,
+.recipe-ingredients-header,
+.recipe-steps-header
+{
+    text-align: center;
+    font-size: 24px;
+}
+
+.recipe-steps-list,
+.recipe-ingredients-list,
+.recipe-description-content
+{
+    margin:  0 auto;
+    width: 50%;
+}
+
+
+.recipe-ingredients-list
+{
+    list-style: circle;
+}
+
+.home-button
+{
+    border: none;
+}
+.home-button:hover
+{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
